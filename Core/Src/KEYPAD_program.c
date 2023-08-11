@@ -51,7 +51,6 @@ ST_Keypad_t keypad_1 =
 };
 
 
-
 void keypad_initialize(ST_Keypad_t *_keypad_obj)
 {
     uint8_t rows_counter = 0;
