@@ -76,6 +76,7 @@ Reset_Handler:
   movs r3, #0
   b LoopCopyDataInit
 
+
 CopyDataInit:
   ldr r4, [r2, r3]
   str r4, [r0, r3]
