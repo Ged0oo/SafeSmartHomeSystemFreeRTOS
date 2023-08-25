@@ -48,6 +48,7 @@ defined in linker script */
 /* end address for the .bss section. defined in linker script */
 .word _ebss
 
+
 .equ  BootRAM, 0xF108F85F
 /**
  * @brief  This is the code that gets called when the processor first
